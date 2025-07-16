@@ -257,19 +257,29 @@ nav{
     margin: 92.33px 150px 0 150px;
 }
 .div-flex4{
-    display: flex; 
+    display: flex;  
     gap: 115px; 
     /* justify-content: space-between; container mt-116 getInTouchSection */
     align-items: center;
 }
 .sub-div-fl{
-     max-width: 528px; 
+    max-width: 528px;  
     height: 232px;
 }
 form{
-    width: 40%; 
+    width: 297px; 
     height: 490px;
     padding: 0;
+    display: inline-block;
+}
+.btn5{
+    width: 297px;
+    height: 62px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
 }
 .color41{
     font-family: "Raleway", sans-serif;
@@ -287,19 +297,32 @@ form{
     max-width: 497px;
     background-color: #FFFFFF;
     padding-bottom: 19px;
+    border: none;
+    border-radius: 10px;
 }
 .color44{
     max-width: 497px;
     height: 135px;
     background-color: #FFFFFF;
     padding-bottom: 19px;
+    border: none;
+    border-radius: 10px;
+}
+.color45{
+    border: 1px solid #D6DDED;
+    height: 70px;
+    max-width: 497px;
+    background-color: #FFFFFF;
+    padding-bottom: 19px;
+    border: none;
+    /* border-radius: 10px; */
 }
 /* footer */
 .footer-sec{
     max-width: 1440px;
     height: 428px;
     background-color: #FFFFFF;
-    /* text-align: center; */
+    text-align: center; 
 }
 .color51{
     font-family: "Inter", sans-serif;
@@ -315,6 +338,7 @@ form{
 nav ul{
     display: flex;
     gap: 48px;
+    /* justify-content: space-around; */
 }
 nav ul li{
     list-style: none;
@@ -326,14 +350,21 @@ nav ul a{
     color: #8987A1;
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
+    /* margin: 20px 65px 0 65px; */
+    /* text-align: center; */
+    /* justify-content: space-around; */
 }
 .footer-div{
     max-width: 531px;
     height: 221px;
-    padding-top: 104px;
-    padding-left: 454px;
+    margin: auto;
+    margin-top: 104px;
+    /* padding-top: 104px; */
+    /* padding-left: 454px; */
     /* text-align: center; */
 }
+
+
+
 
 
